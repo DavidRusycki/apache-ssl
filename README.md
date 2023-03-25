@@ -78,7 +78,7 @@ Sendo assim nossos arquivos devem ser movidos para esse caminho na nossa imagem 
 
 > (Esse arquivo está na pasta /configuracao)
 
-[Fonte]([https://](https://dockerwebdev.com/tutorials/docker-php-development/)
+[Fonte](https://dockerwebdev.com/tutorials/docker-php-development/)
 
 ## ⁉ Como utilizar o container desse repositório?
 
