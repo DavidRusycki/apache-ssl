@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  apache-ssl:
+    container_name: apache-ssl  
+    build: .
+    volumes:
+      - ../src/:/var/www/html/
+    ports:
+      - 80:80 
+      - 443:443
