@@ -1,7 +1,7 @@
-# apache-ssl
+# 🔑 apache-ssl
 Este repositório é um guia de como criar um Servidor apache configurado para rodar com HTTPS no localhost para rodar em um container docker. Seguindo os passos deve ser possível configurar um também. Ou utilizar o que já está pronto, que é resultado desses passos.
 
-## Criando o certificado SSL 
+## ✉ Criando o certificado SSL 
 
 Para que o nosso servidor Apache possa utilizar o HTTPS, precisamos de um certificado que será utilizado para criptografar a comunicação do cliente com o servidor. (Navegador -> Servidor Apache). 
 
@@ -39,7 +39,7 @@ Email Address []:admin@your_domain.com
 [Fonte](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-18-04-pt)
 
 
-## Configurando o servidor Apache
+## 🖥 Configurando o servidor Apache
 
 1. Crie um arquivo chamado `000-default.conf`. E insira nele o seguinte conteúdo:
 
@@ -78,9 +78,9 @@ Sendo assim nossos arquivos devem ser movidos para esse caminho na nossa imagem 
 
 > (Esse arquivo está na pasta /configuracao)
 
-[Fonte]([https://](https://dockerwebdev.com/tutorials/docker-php-development/))
+[Fonte]([https://](https://dockerwebdev.com/tutorials/docker-php-development/)
 
-## Como utilizar o container desse repositório
+## ⁉ Como utilizar o container desse repositório
 
 1. Ter o docker instalado.
 2. Executar o comando `docker compose up -d` no diretório `/docker`.
